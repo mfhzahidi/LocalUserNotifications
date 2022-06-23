@@ -13,6 +13,7 @@
 		52C0A1C728649C7C008017D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C0A1C528649C7C008017D9 /* Main.storyboard */; };
 		52C0A1C928649C7E008017D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C0A1C828649C7E008017D9 /* Assets.xcassets */; };
 		52C0A1CC28649C7E008017D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C0A1CA28649C7E008017D9 /* LaunchScreen.storyboard */; };
+		52C0A1D42864D813008017D9 /* Firebase Push notification .swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0A1D32864D813008017D9 /* Firebase Push notification .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52C0A1C828649C7E008017D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C0A1CB28649C7E008017D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C0A1CD28649C7E008017D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C0A1D32864D813008017D9 /* Firebase Push notification .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase Push notification .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		52C0A1B328649C7C008017D9 = {
 			isa = PBXGroup;
 			children = (
+				52C0A1D32864D813008017D9 /* Firebase Push notification .swift */,
 				52C0A1BE28649C7C008017D9 /* LocalPushNotifications */,
 				52C0A1BD28649C7C008017D9 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C0A1D42864D813008017D9 /* Firebase Push notification .swift in Sources */,
 				52C0A1C428649C7C008017D9 /* ViewController.swift in Sources */,
 				52C0A1C028649C7C008017D9 /* AppDelegate.swift in Sources */,
 				52C0A1C228649C7C008017D9 /* SceneDelegate.swift in Sources */,
